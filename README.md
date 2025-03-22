@@ -10,9 +10,9 @@ Creating Machine Learning and Deep Learning models for data prediction of number
 
 ## Methodology
 
-- **Preprocessing the data**- Sampling the data and scaling when required by the model, removing outliers 
-- **Importance check** - Using Grid methods for sampling the best variables for use  
-- **Hyperparameter Optimization:** Fine-tunning the model for better prediction  
+- **Preprocessing the data**: Sampling the data and scaling when required by the model, removing outliers 
+- **Importance check**: Using Grid methods for sampling the best variables for use  
+- **Hyperparameter Optimization:**: Fine-tunning the model for better prediction  
 - **Results Analysis**: Comparing predictions with origial test data, and choosing the model with more accurate data  
 
 ## Accuracy Assessment
