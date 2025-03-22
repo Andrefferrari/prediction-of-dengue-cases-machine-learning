@@ -1,7 +1,7 @@
 # Prediction of dengue cases with machine and deep learning
 
 ## Overview
-Dengue is a serious health issue that affects the majority of tropical countries and even with new vaccines on the horizon they should be paid attetion. Climate changes won't stop happening and the world is heating more with the passing of each year, sea levels are rising and many and other natural accidents keep increasing, wich for these countrys means more ocurrences. And the are for the insect distribution keeps increasing.
+Dengue is a serious health issue that affects the majority of tropical countries and should be treated serioulsy. Climate changes won't stop happening and the world is heating more with the passing of each year, sea levels are rising and many and other natural accidents keep increasing, wich for these countrys means more ocurrences. And the are for the insect distribution keeps increasing.
 
 This project obtained oficial data of contained confirmed dengue cases for the municipality of São Paulo (Brazil) through the Unified Health System (SUS) and climate data from the National Institute of Meteorology (INMET), with nine climate variables. These two datas were combined together on a single dataset by monthly cases and climate observations for predictions.
 
