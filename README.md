@@ -8,20 +8,20 @@ This project obtained oficial data of confirmed dengue cases for the municipalit
 ## Objectives
 Creating Machine Learning and Deep Learning models for data prediction of number of dengue cases on the municipality of São Paulo through climate data using the last six months and alaysing the best model.
 
-##Methodology
+## Methodology
 
 - **Preprocessing the data**- Sampling the data and scaling when required by the model, removing outliers 
 - **Importance check** - Using Grid methods for sampling the best variables for use  
 - **Hyperparameter Optimization:** Fine-tunning the model for better prediction  
 - **Results Analysis**: Comparing predictions with origial test data, and choosing the model with more accurate data  
 
-##Accuracy Assessment
+## Accuracy Assessment
 The following metrics were used for prediction analysis:
 - **Mean Absolute Error (MAE)**  
 - **Root Mean Square Error (RMSE)**  
 - **Coefficient of Determination (R²)**  
 
-##Results  
+## Results  
 - **Random Forest**:  
 MAE: 267  
 RMSE: 487  
