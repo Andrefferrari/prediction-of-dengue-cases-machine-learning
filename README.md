@@ -31,4 +31,4 @@ MAE: 108
 RMSE: 493  
 R²: 54%  
 
-The best model was Long Short-Term Memory with a more accurate MAE and best Coefficient of Determination, a sattisfatory result for the target feature. The dataset has proven to be smaller than desirable and therefore had difficulties of overfitting and generalization, more variables as a bigger sample could improve the models predictions.
+The best model was Long Short-Term Memory with a more accurate MAE and best Coefficient of Determination, a sattisfatory result for the target feature. The dataset has proven to be smaller than desirable and therefore had difficulties of overfitting and generalization, more variables and a bigger sample could improve the models predictions.
