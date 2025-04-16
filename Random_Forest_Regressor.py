@@ -36,7 +36,7 @@ len(df)
 y = df.loc[:,'n_casos']
 X = df.drop(['n_casos'], axis='columns')
 
-#Separação dos dados em treino e teste
+#Splitting the data between train and test
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
 
 #Training the model for the first time
@@ -72,7 +72,7 @@ df = df.drop(['TEMPERATURA MAXIMA MEDIA, MENSAL(Â°C)'], axis='columns')
 
 #Then back to the process until we find the best combination
 #Create a path so we can call the file
-path = r"C:\Users\user\Documents\Estudos_Trabalhos_etc\MBA - USP_Esaql\TCC\Projeto_TCC\DTFinal_Drop.csv"
+path = r"Set document path"  
 df = pd.read_csv(path, sep=";", decimal=",")
 df.info()
 
@@ -134,3 +134,4 @@ r2_score(y_test, y_pred)
 #Test the best results
 rfr = RandomForestRegressor(n_estimators = 50, max_depth = 15, max_features = 5, max_leaf_nodes = 8, min_samples_split = 10, min_samples_leaf = 20, n_jobs= -1, random_state=42)
 rfr.fit(X_train, y_train)
+y_pred = rfr.predict(X_test)
